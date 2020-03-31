@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    .flex-column {
+        margin:auto;
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        align-items: center;
+    }
+    h1 {
+        font-size: 30px;
+        font-family: "Poppins";
+        font-weight: normal;
+
+    }
+    h2 {
+        font-size: 30px;
+        font-family: "Poppins";
+
+        font-weight: bolder;
+
+    }
+    h3{
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 100;
+        color: gray;
+
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+        margin:20px;
+        padding:20px;
+
+    }
+    .text-align-center {
+        text-align: center;
+    }
+    .bottom-margin-50 {
+        margin-bottom: 50px;
+    }
+    .text-align-left {
+        text-align: left;
+    }
+    .image {
+        width: 20%;
+        justify-items: right;
+    }
+    .container-1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .box1 {
+        border-top: 5px solid blue;
+    }
+    .box2 {
+        border-top: 5px solid red;
+    }
+    .box3 {
+        border-top: 5px solid orange;
+    }
+    .box4 {
+        border-top: 5px solid lightblue;
+    }
+    .paragraph {
+        text-align: center;
+        font-size: 25px;
+        font-family: "OpenSans";
+        color: gray;
+    }
+    .box-paragraph {
+        text-align: left;
+        font-size: 25px;
+        font-family: "OpenSans";
+        color: gray;
+    }
+    .card2-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+@media only screen and (min-width: 441px){
+    .card-container {
+        display: flex;
+        flex-direction: row;
+       align-items: center;
+    }
+}
